@@ -42,15 +42,15 @@ def img_show(path):
 """## File Paths and variables"""
 
 
-img_path = '/content/darknet/data/nabirds/images'
-bbox_path = '/content/darknet/data/nabirds/bounding_boxes.txt'
-label_path = '/content/darknet/data/nabirds/image_class_labels.txt'
-class_path = '/content/darknet/data/nabirds/classes.txt'
-size_path = '/content/darknet/data/nabirds/sizes.txt'
-names_path = '/content/darknet/data/nabirds/nabirds.names'
-txt_path = '/content/darknet/data/nabirds/images'
-train_txt = '/content/darknet/data/nabirds/birds_train.txt'
-test_txt = '/content/darknet/data/nabirds/birds_test.txt'
+img_path = ''
+bbox_path = ''
+label_path = ''
+class_path = ''
+size_path = ''
+names_path = ''
+txt_path = ''
+train_txt = ''
+test_txt = ''
 
 data_dict = {}
 new_labels = {}

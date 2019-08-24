@@ -116,6 +116,10 @@ To process videos, simply add an extra parameter as follows(include mode=video a
 
     `mlflow run . -P file_name=data/video.mp4 -P dataset=openimages -P mode=video`
 
+For data preprocessing
+    `mlflow run . -P file_name=data/data_preprocessing.py`
+In the file please specify the parameters in """## File Paths and variables"""' in order to process the dataset
+
 ### TODO: model serving as image is not featured yet into mlflow, need to work on an alternate approach.
 ### TODO: Include option for training on custom dataset of any size with categories not found in any of the provided datasets
 ### TODO: Alternatives to speed up post-processing, the present pipeline presents too much of a lag
